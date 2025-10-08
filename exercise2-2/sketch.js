@@ -37,3 +37,8 @@ function keyPressed(){
         circleY += 5
     }
 }
+
+function mouseReleased(){
+
+    fillColour = color(random(255), random(255), random(255))
+}
